@@ -38,7 +38,19 @@ int main(){
             scanf("%c",&xx);
         }
         if (code == 2){
-            
+            if(index > 0){
+                index--;
+                printf("删除完成，点击回车继续\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
+            else{
+                printf("无车辆位置信息，删除失败，点击回车继续\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
         }
         if (code == 3){
             
